@@ -1,0 +1,283 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  /* padding-top: 54px; */
+  /* line-height: 0.5 !important; */
+}
+
+@media (min-width: 992px) {
+  body {
+    /* padding-top: 56px; */
+  }
+}
+img {
+    max-width: 100%;
+    height: auto;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.whitecolor{
+  color: #ffffff !important;
+}
+.navbar-nav li{
+   padding-left: 30px; 
+  padding-right: 25px;
+ 
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white !important;
+}
+.navbar-nav li:hover{
+  opacity: .65;
+}
+.navbar-brand:hover{
+  opacity: .65;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.bg-light{
+  background-color: #f2f2f2;
+  
+}
+.bg-light a{
+  color: black;
+}
+.cl-dar{
+  color: black;
+}
+.cl-white{
+  color: white;
+}
+.bg-white{
+  color:white;
+}
+.nav-link {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    letter-spacing: -.01em !important;
+    white-space: nowrap !important;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
+    opacity: 1 !important;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+    -webkit-tap-highlight-color: transparent !important;
+    outline-offset: -7px !important;
+    padding: 0px !important;
+} 
+.bg-apple{
+  background-color: #fafafa;
+}
+.bg-apple-dark{
+  background: #eeeeee;
+}
+.new-genration{
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-image: url(/images/shop_for_college_large.jpg);
+    
+    
+}
+.behind-the-mac{
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-image: url(/images/behind_the_mac_majid_large.jpg);
+}
+
+footer {
+    background-color: #f2f2f2;
+    font-size: 11px;
+    height: auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    footer {
+        padding-top: 20px;
+    }
+}
+
+footer .col-sm-12 {
+    display: none;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #d6d6d6;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+    footer .col-sm-12 {
+        display: block;
+    }
+}
+
+footer .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+    footer .container:first-child {
+        padding-bottom: 20px;
+    }
+
+@media only screen and (max-width: 1024px) {
+    footer .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+footer ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    footer ul {
+        display: none;
+    }
+}
+
+footer li {
+    padding-left: 0;
+    line-height: 1.7;
+    cursor: pointer;
+}
+
+    footer li:first-child {
+        font-weight: bold;
+    }
+
+.footerWrap {
+    color: #888;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footerWrap {
+        padding: 0;
+    }
+}
+
+.footerWrap p {
+    margin-bottom: 6px;
+}
+
+.footerWrap #footerLegal {
+    border-top: 1px solid #d6d6d6;
+    padding-top: 8px;
+    margin-bottom: 43px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footerWrap #footerLegal {
+        border-top: none;
+        margin-bottom: 10px;
+    }
+}
+
+.footerWrap #footerLegal .col-md-4, .footerWrap #footerLegal .col-md-2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footerWrap #footerLegal .copyright {
+    padding-left: 0;
+}
+
+.footerWrap #footerLegal .legalLinks {
+    text-align: left;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footerWrap #footerLegal .legalLinks {
+        padding-left: 0;
+    }
+}
+
+.footerWrap #footerLegal .legalLinks a {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #555;
+    border-right: 1px solid #d6d6d6;
+    text-align: center;
+    font-size: 11px;
+}
+
+    .footerWrap #footerLegal .legalLinks a:last-child {
+        border-right: none;
+    }
+
+@media only screen and (max-width: 1024px) {
+    .footerWrap #footerLegal .legalLinks a:first-child {
+        padding-left: 0;
+    }
+}
+
+.footerWrap #footerLegal .footerLocal {
+    text-align: right;
+    line-height: 16px;
+}
+#nativeapp_2, #nativeapp_4, #nativeapp_6 {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .footerWrap #footerLegal .footerLocal {
+        display: none;
+    }
+    #navbarResponsive {
+        line-height: 30px;
+        padding-left: 15px;
+    }
+    #nativeapp_2, #nativeapp_4, #nativeapp_6 {
+        display: block;
+    }
+    #nativeapp_1, #nativeapp_3, #nativeapp_5 {
+        display: none;
+    }
+}
+
+.footerWrap #footerLegal .footerLocal span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: url("http://images.apple.com/ac/flags/1/images/us/32.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+}
+
+.footerWrap #footerLegal .footerLocal a {
+    color: #888;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}
